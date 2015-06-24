@@ -83,7 +83,7 @@ msgid ""
 "BSON is a binary representation of :term:`JSON` documents, though it "
 "contains more data types than JSON. For the BSON spec, see `bsonspec.org "
 "<http://bsonspec.org/>`_. See also :doc:`/reference/bson-types`."
-msgstr ""
+msgstr "MongoDB在硬盘上以term:'BSON'的序列格式来存储文档。BSON 是term:'JSON'形式的文档的二进制表示，因此它包括比JSON更多的数据类型。更多BSON的说明，请查看`bsonspec.org<http://bsonspec.org/>`_. See also :doc:`/reference/bson-types`."
 
 # 239ca5ce2ae1440eaec7da61ccb068ea
 #: ../source/core/document.txt:41
@@ -91,19 +91,19 @@ msgid ""
 "The :program:`mongo` JavaScript shell and the :doc:`MongoDB language drivers"
 " </applications/drivers>` translate between BSON and the language-specific "
 "document representation."
-msgstr ""
+msgstr "mongo的JavaScript shell 和 MongoDB语言驱动执行着在BSON和文档表示的语言规范之间进行翻译"
 
 # cf11e0174d554f8f991a14dc0da12e36
 #: ../source/core/document.txt:48
 msgid "Document Structure"
-msgstr ""
+msgstr "文档结构"
 
 # cfdee136dbad4069a6c07008eaddf8f9
 #: ../source/core/document.txt:50
 msgid ""
 "MongoDB documents are composed of field-and-value pairs and have the "
 "following structure:"
-msgstr ""
+msgstr "MongoDB的文档是以键值对的形式组织的，其结构如下："
 
 # 752a252d259646e3b69978c0fc5f2dba
 #: ../source/core/document.txt:63
@@ -111,7 +111,7 @@ msgid ""
 "The value of a field can be any of the BSON :doc:`data types </reference"
 "/bson-types>`, including other documents, arrays, and arrays of documents. "
 "The following document contains values of varying types:"
-msgstr ""
+msgstr "值部分可以是任何的BSON类型 :doc:`data types </reference/bson-types>`,包括其他的文档，数组，和文档数组。以下文档包含这多种类型的值："
 
 # 34e6de2a751a440a947ea83a8771e0ca
 #: ../source/core/document.txt:78
